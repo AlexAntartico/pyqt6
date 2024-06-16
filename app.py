@@ -1,4 +1,8 @@
-from PyQt6.QtWidgets import QApplication, QtWidget
+from PyQt6.QtWidgets import QApplication, QWidget
+# QApplication is the application handler for the Qt app
+# QWidget is the base class for all UI objects in Qt, its a basic empty GUI widget
+# Both come from the QtWidgets module of PyQt6
+
 
 # To access cli args
 import sys
